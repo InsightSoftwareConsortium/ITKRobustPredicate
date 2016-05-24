@@ -2,23 +2,18 @@ General
 ------
 
 This is a module for ITK: The Insight Toolkit for Segmentation and
-Registration. It is designed to work with the ITKv4 modular system and
-to be places it ITK/Modules/External.
+Registration. For more information refer to:  http://www.cs.cmu.edu/~quake/robust.html 
 
 This modular contain the wrapper for the ThirdParty library ITKSKEWCHUK.
-It contain three irk function class
-- itkOrientation2DFunction.h
-- itkInCircleExactFunction.h
-- itkInCircleFunction.h
+It contain one header file
+- predicates.h
 And a test program
-- IsInCircle.cxx
+- IsPointInCircleTest
 That validate the good behaviour of this module.
 
 Getting Started
 ---------------
-
-Move this module into the ITK/Modules/External folder.
-Recompile your ITK and run the testes to validate its good integration.
+You can build this module as an external TIK module but adding it as a dependency.
 
 License
 -------

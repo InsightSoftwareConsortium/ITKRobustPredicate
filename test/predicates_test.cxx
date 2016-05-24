@@ -44,7 +44,7 @@ int test( double eps_x, double eps_y, int exact )
   return result;
 }
 
-int predicates_test( int , char** )
+int predicates_test( int , char*[] )
 {
 
   printf( "Epsilon_x: %f \n", -0.2);
