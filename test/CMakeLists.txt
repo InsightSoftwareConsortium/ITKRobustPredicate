@@ -9,6 +9,7 @@ set( ITK${itk-module}Tests
 
 CreateTestDriver(${itk-module}  "${${itk-module}-Test_LIBRARIES}" "${ITK${itk-module}Tests}")
 
-itk_add_test(NAME IsPointInCircleTest_1
+itk_add_test(
+  NAME IsPointInCircleTest_1
   COMMAND ${itk-module}TestDriver predicates_test
   )

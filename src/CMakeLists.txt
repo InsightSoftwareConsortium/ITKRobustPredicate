@@ -1,4 +1,4 @@
-set(ITKSkewchuk_SRC
+set(RobustPredicate_SRC
 predicates.c
 )
 

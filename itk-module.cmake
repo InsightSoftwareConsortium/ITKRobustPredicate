@@ -10,12 +10,13 @@ file( READ "${MY_CURENT_DIR}/README" DOCUMENTATION )
 # and ITKMetaIO(besides ITKPointInCircle and ITKCore)
  
 # define the dependencies of the include module and the tests
-itk_module(ITKSkewchuk
+itk_module(RobustPredicate
 DEPENDS
     ITKCommon
   TEST_DEPENDS
     ITKTestKernel
     ITKMetaIO
+  EXCLUDE_FROM_DEFAULT
   DESCRIPTION
     "${DOCUMENTATION}"
 )
