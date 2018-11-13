@@ -4,11 +4,11 @@ ITKRobustPredicate
 .. |CircleCI| image:: https://circleci.com/gh/InsightSoftwareConsortium/ITKRobustPredicate.svg?style=shield
     :target: https://circleci.com/gh/InsightSoftwareConsortium/ITKRobustPredicate
 
-===========
-   Linux   
-===========
-|CircleCI| 
-===========
+=========== =
+   Linux
+=========== =
+|CircleCI|
+=========== =
 
 
 Overview
