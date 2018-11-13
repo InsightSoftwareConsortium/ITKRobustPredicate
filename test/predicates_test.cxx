@@ -1,6 +1,5 @@
-extern "C"{
 #include "predicates.h"
-}
+
 
 int test( double eps_x, double eps_y, int exact )
 {
